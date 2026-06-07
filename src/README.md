@@ -6,6 +6,8 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 - View all available extracurricular activities
 - Sign up for activities
+- Persistent activity storage in `src/data/activities.json`
+- Program dashboard and activity report metrics
 
 ## Getting Started
 
