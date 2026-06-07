@@ -198,3 +198,40 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.dashboard-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.dashboard-card {
+  flex: 1 1 180px;
+  padding: 14px;
+  background-color: #e8eaf6;
+  border: 1px solid #c5cae9;
+  border-radius: 6px;
+}
+
+.dashboard-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #1a237e;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.dashboard-table thead {
+  background-color: #f2f3f8;
+}
